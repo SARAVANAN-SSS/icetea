@@ -1,38 +1,540 @@
-.App {
+body{
+  margin: 0;
+  padding: 0;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.home{
+  width: 1920px;
+  height: 991px;
+  background: url(./images/Mask\ group.png);
+}
+
+.home .home-logo img{
+  margin: 43px 1329px 114px 46px;
+}
+
+.home-h{
+  width: 666px;
+  height: 179px;
+  margin-left: 243px;
+  margin-right: 1010px;
+  margin-bottom: 116px;
+}
+
+.home-h h2{
+  font-family: 'Buttershine Serif';
+font-style: normal;
+font-weight: 400;
+font-size: 80px;
+line-height: 88px;
+color: rgba(255, 255, 255, 0.8);
+
+}
+
+.home-p{
+  width: 642px;
+  height: 139px;
+  margin-left: 251px;
+}
+
+.home-p p{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #F5F5F5;
+}
+
+ .home-btn button{
+  width: 300px;
+  height: 50px;
+  margin-left: 253px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  border: 1px solid #7635B2;
+  border-radius: 50px;
+  color: #FFFFFF;
+  background: transparent;
+}
+
+.home-second{
+  position: absolute;
+  width: 1920px;
+  height:auto;
+  /* height: 4593px; */
+  margin-top: 100px;
+  background: #02000E;
+}
+
+.home-second-one{
+  display: flex;
+  gap: 82px;
+
+}
+
+.home-second p{
+  width: 572px;
+  height: 125px;
+  margin-left: 253px;
+  margin-top: 171px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+
+}
+
+.img-e{
+  margin-top: 100px ;
+  margin-left: 708px;
+  position: absolute;
+  z-index: 1;
+  filter: blur(8px);
+}
+
+.img-g15{
+  margin-top: 629px ;
+  margin-left: 60px;
+  position: absolute;
+  z-index: 1;
+  filter: blur(8px);
+
+}
+
+.img-g3{
+  margin-top: 177px ;
+  margin-left: 251px;
+  position: absolute;
+  z-index: 2;
+  opacity: 0.9;
+}
+
+.form h1{
+width: 529px;
+height: 98px;
+margin-top: 132px;
+margin-left: 148px;
+margin-bottom: 118px;
+font-family: 'Montserrat';
+font-weight: 700;
+font-size: 80px;
+line-height: 98px;
+color: #F5F5F5;
+}
+
+.form label{
+  display: block;
+  margin-left: 148px;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+  margin-bottom: 6px;
+  
+}
+
+.form input{
+  display: block;
+  margin-left: 148px;
+  width: 666px;
+  height: 73px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 36.5px;
+  border: none;
+  margin-bottom: 54px;
+  
+} 
+
+.form textarea{
+  display: block;
+  width: 666px;
+  height: 168px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 36px;
+  border: none;
+  margin-left: 148px;
+  margin-bottom: 46px;
+
+}
+
+.form button{
+  position: absolute;
+  width: 250px;
+  height: 50px;
+  margin-left: 148px;
+  border-radius: 50px;
+  background: transparent;
+  color: white;
+  border: 1px solid #7635B2;
+
+}
+
+.numbers{
+  background: transparent;
+  margin-top: 347px;
+}
+
+.numbers .products{
+  margin-left: 318px;
+  margin-right: 244px;
+  margin-bottom: 29px;
+}
+
+.numbers .mvps{
+  margin-right: 222px;
+  margin-bottom: 29px;
+}
+
+.numbers .awards{
+  margin-bottom: 29px;
+}
+
+.numbers p{
+  display: inline;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 32px;
+  color: #FFFFFF;
+  /* margin-left: 351px; */
+  text-align: center;
+
+}
+
+ .numbers .products-p{
+  margin-left: 351px;
+  width: 205px;
+  height: 39px;
+}
+
+.numbers .mvps-p{
+  margin-left: 353px;
+  width: 100px;
+  height: 39px;
+}
+
+.numbers .awards-p{
+  margin-left: 365px;
+  width: 156px;
+  height: 39px;
+} 
+
+.brands .line-1{
+  margin: 127px 250px 0px;
+}
+.brands .upwork-i{
+  width: 406px;
+  height: 139px;
+  margin-left: 214px;
+  margin-top: 97px;
+}
+
+.brands .upwork-p{
+  margin-top: 36px;
+  text-align: center;
+  width: 370px;
+  height: fit-content; 
+}
+
+.brands .upwork-r{
+  width: 200px;
+  height: 60px;
+  margin-left:315px;
+  margin-bottom: 153px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.brands .brands-umd{
+  display: flex;
+  width: 1420px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.brands .microsoft-i{
+  width: 416px;
+  height: 115px;
+  margin-left: 163px;
+  margin-top: 112px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.brands .microsoft-p{
+  margin-top: 45px;
+  text-align: center;
+  width: 400px;
+  height: fit-content;
+  margin-left: 163px; 
+}
+
+.brands .microsoft-r{
+  width: 200px;
+  height: 60px;
+  margin-left:270px;
+  margin-bottom: 153px;
+  text-align: center;
+}
+
+.brands .dipp-i{
+  width: 361px;
+  height: 182px;
+  margin-left: 163px;
+  margin-top: 76px;
+}
+
+.brands .dipp-p{
+  margin-top: 14px;
+  text-align: center;
+  width: 400px;
+  height: fit-content;
+  margin-left: 163px; 
+}
+
+.brands .dipp-r{
+  width: 200px;
+  height: 60px;
+  margin-left:270px;
+  margin-bottom: 153px;
+  text-align: center;
+}
+
+.brands .line-2{
+  margin-left: 250px;
+}
+
+.brands .sectors{
+  margin: 153px 270px 154px 242px;
+}
+
+.brands .services{
+  width: 419px;
+  height: 100px;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 80px;
+  color: #FFFFFF;
+  margin-left: 750px;
+}
+
+.brands .services-p{
+width: 1371px;
+height: 59px;
+font-family: 'Montserrat';
+font-weight: 400;
+font-size: 24px;
+text-align: center;
+color: #FFFFFF;
+margin-top: 110px;
+
+}
+
+.hyperledger{
+  margin: 58px 280px 0px 400px;
+  position: absolute;
+  z-index: 1;
+}
+
+.hyperledgerm{
+  margin: 106px 374px 0px 447px;
+  position: relative;
+  z-index: 2;
+}
+
+.brands .hyperledger-p{
+  width: 242px;
+  height: 55px;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-left: 369px ;
+  margin-top: 50px;
+
+}
+
+.nft{
+  margin: 58px 0px 0px 0px;
+  position: absolute;
+  z-index: 1;
+}
+
+.nftm{
+  margin: 104px 46px 46px 46px;
+  position: relative;
+  z-index: 2;
+}
+
+.brands .nft-p{
+  width: 171px;
+  height: 53px;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-left: 0px ;
+  margin-top: 10px;
+
+}
+
+.blockchain{
+  margin: 58px 376px 0px 312px;
+  position: absolute;
+  z-index: 1;
+}
+
+
+.blockchainm{
+  margin: 104px 46px 0px 358px;
+  position: relative;
+  z-index: 2;
+} 
+
+.brands .blockchain-p{
+  width: 267px;
+  height: 54px;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-left: 264px ;
+  margin-top: 50px;
+
+} 
+
+.services-row1{
+  display: flex;
+}
+
+.services-row2{
+  display: flex;
+}
+
+.services-rows{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 107px;
 }
 
-.App-link {
-  color: #61dafb;
+.consulting{
+  margin: 58px 280px 0px 400px;
+  position: absolute;
+  z-index: 1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.consultingm{
+  width: 128px;
+  height: 101px;
+  margin: 106px 374px 0px 428px;
+  position: relative;
+  z-index: 2;
 }
+
+.brands .consulting-p{
+  width: 242px;
+  height: 55px;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-left: 369px ;
+  margin-top: 50px;
+
+}
+
+.binance{
+  margin: 58px 0px 0px 0px;
+  position: absolute;
+  z-index: 1;
+}
+
+.binancem{
+  margin: 104px 46px 46px 46px;
+  position: relative;
+  z-index: 2;
+}
+
+.brands .binance-p{
+  width: 171px;
+  height: 59px;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-left: 0px ;
+  margin-top: 10px;
+
+}
+
+.dapp{
+  margin: 58px 0px 0px 312px;
+  position: absolute;
+  z-index: 1;
+}
+
+.dappm{
+  margin: 104px 46px 46px 355px;
+  position: relative;
+  z-index: 2;
+}
+
+.brands .dapp-p{
+  width: 263px;
+  height: 31px;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-left: 264px ;
+  margin-top: 10px;
+  margin-bottom: 150px;
+
+}
+
+.home-second .footer{
+  width: 1920px;
+  height: 414px;
+  display: flex;
+  background: linear-gradient(180deg, rgba(42, 21, 114, 0) 8.2%, #7534B2 100%);
+}
+
+.finallogo{
+  margin-top: 176px;
+  margin-left: 165px;
+  margin-bottom: 10px;
+}
+
+.rights{
+  margin-top: 4px;
+  margin-left: 213px;
+  margin-bottom: 36px;
+  display: block;
+}
+
+.footer .follow{
+  margin-top: 206px;
+  margin-bottom: -30px;
+}
+
+.footer .links{
+  margin-left: 253px;
+  margin-right: 866px;
+
+}
+
+
+
+
+
+
